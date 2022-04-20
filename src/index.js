@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Patients from './Pages/Patients';
-import AAAA from './Pages/AAAA';
 import Navbar from './compenent/NavBar';
 import Layout from './compenent/Layout';
 import App from './App';

@@ -8,7 +8,7 @@ export default function Navbar({ fixed}) {
     
       <div className="flex flex-wrap py-2">
         <div className="w-full px-4">
-          <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-stone-500 rounded">
+          <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-[#193152] rounded">
             <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
               <div className="w-full relative flex justify-between lg:w-auto px-4 lg:static lg:block lg:justify-start">
                 <a
@@ -43,34 +43,34 @@ export default function Navbar({ fixed}) {
                     </Link>
                   </li>
                   <li className="nav-item">
-                  
+                  <Link to={"/Visit"}>
                     <a
                       className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                      href="#pablo"
+                      href="/Visit"
                     >
                       Visit
                     </a>
-                 
+                    </Link>
                   </li>
                   <li className="nav-item">
-                  
+                  <Link to={"/RDV"}>
                     <a
                       className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                       href="#pablo"
                     >
                       RDV
                     </a>
-                   
+                    </Link>
                   </li>
                   <li className="nav-item">
-                 
+                  <Link to={"/Paiement"}>
                     <a
                       className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                       href="#pablo"
                     >
                       paiement
                     </a>
-                   
+                    </Link>
                   </li>
                   <li className="nav-item">
                  

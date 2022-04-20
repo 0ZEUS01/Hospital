@@ -29,22 +29,47 @@ export default function AddPaiement() {
                                             className="mt-1 block w-full py-2 px-3 border  border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                                         />
                                     </div>
-                                    <div className="col-span-6">
-                                        <label htmlFor="Prestation" className="block text-sm font-medium text-gray-700">
-                                            Prestation
-                                        </label>
-                                        <select
-                                            id="Prestation"
-                                            name="Prestation"
-                                            autoComplete="Prestation-name"
-                                            className="mt-1 block w-[50%] py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-                                        >
-                                            <select>Visit </select>
-                                            <select>Scaner </select>
-                                            <select>chihaja </select>
-                                        </select>
+                                </div>
+                                <div class=" py-6 flex  sm:py-12">
+                                    <div class="block">
+                                        <div class="mt-2">
+                                            <label class="inline-flex items-center">
+                                                <input type="checkbox" class="w-4 h-4 border-0 focus:ring-0" checked />
+                                                <span class="ml-2">Visit</span>
+                                            </label>
+                                        </div>
+                                        <div class="mt-2">
+                                            <label class="inline-flex items-center">
+                                                <input type="checkbox" class="w-4 h-4 border-0 focus:ring-0"  />
+                                                <span class="ml-2">Cancer</span>
+                                            </label>
+                                        </div>
+                                        <div class="mt-2">
+                                            <label class="inline-flex items-center">
+                                                <input type="checkbox" class="w-4 h-4 border-0 focus:ring-0"  />
+                                                <span class="ml-2">XXXX</span>
+                                            </label>
+                                        </div>
+                                        <div class="mt-2">
+                                            <label class="inline-flex items-center">
+                                                <input type="checkbox" class="w-4 h-4 border-0 focus:ring-0"  />
+                                                <span class="ml-2">XXXX</span>
+                                            </label>
+                                        </div>
+                                        <div class="mt-2">
+                                            <label class="inline-flex items-center">
+                                                <input type="checkbox" class="w-4 h-4 border-0 focus:ring-0"  />
+                                                <span class="ml-2">XXXX</span>
+                                            </label>
+                                        </div>
+                                        <div class="mt-2">
+                                            <label class="inline-flex items-center">
+                                                <input type="checkbox" class="w-4 h-4 border-0 focus:ring-0"  />
+                                                <span class="ml-2">XXXX</span>
+                                            </label>
+                                        </div>
                                     </div>
-                                   
+                                    
                                 </div>
                             </div>
                             <div className="px-4 py-3 bg-gray-50 text-right sm:px-6">
